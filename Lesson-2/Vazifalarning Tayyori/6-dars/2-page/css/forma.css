@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(239, 219, 235);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.form_section{
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgb(155, 155, 155);
+}
+.left_form{
+  width: 50%;
+  height: 500px;
+  text-align: center;
+}
+.right_title-text{
+  width: 50%;
+  background: rgb(255, 0, 60);
+  height: 500px;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_form h1{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 40px 0;
+}
+.icons{
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.icons div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #333;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.malumot{
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.malumot label{
+  color: #666;
+  margin: 40px 0 5px 0;
+}
+.malumot input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: rgb(236, 236, 236);
+}
+.malumot a{
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.malumot button{
+  width: 150px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  background: red;
+  color: #fff;
+}
+.title_text{
+  width: 300px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.title_text h1{
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.title_text p{
+  line-height: 25px;
+}

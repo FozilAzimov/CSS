@@ -1,0 +1,9 @@
+#css1
+1.Css Kirish -> Casecading Style Sheets
+2.Css type 3: Inline , Internal, External.
+3.Css selector 5 -> class , id, tag, attrebute, universal.
+4.Box style : background, width, height, % , vh , vw, px.
+5.Text style : color, text-align, font-family, font-style, font-wieght, px, rem , em.
+6.Color: rgb, rgba, hex, hue.
+
+SHULAR HAQIDA TO'LIQ O'RGANIB KELISH KERAK.

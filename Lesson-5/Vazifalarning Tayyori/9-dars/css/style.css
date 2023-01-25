@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&family=Roboto&display=swap');
+
+/* font-family: 'Baloo Bhai 2', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  background: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_box {
+  width: 132px;
+  height: 852px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 24px;
+  box-shadow: 30px 0 40px rgb(212, 212, 212);
+}
+
+.center_box {
+  width: 620px;
+  height: 876px;
+  display: grid;
+  grid-template-rows: 191px 80px 555px;
+  gap: 25px;
+}
+
+.right_box {
+  width: 450px;
+  height: 823.75px;
+}
+
+.sub_container {
+  width: 132px;
+  height: 752px;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 3fr;
+  justify-items: center;
+}
+
+.bottom_icon {
+  margin-top: auto;
+}
+
+.align_top-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.align_bottom-box {
+  width: 620px;
+  height: 554.49px;
+}
+
+.text_img {
+  width: 620px;
+  height: 160px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  position: relative;
+}
+
+.box_title {
+  padding-left: 31px;
+}
+
+.box_title h1 {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 57px;
+  color: #000;
+}
+
+.box_title p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box_img {
+  width: 175px;
+  height: 191px;
+  background-image: url('../imgs/Illustration.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 105px;
+  top: -30px;
+}
+
+.ailgn_center-box {
+  width: 620px;
+  height: 80px;
+}
+
+.align_left-box {
+  width: 500.26px;
+  height: 80px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.left_box-icon23 {
+  width: 64px;
+  height: 64px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-left: 8.5px;
+}
+
+.left_box-title-text {
+  margin-left: 24px;
+}
+
+.left_box-title-text h4 {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+}
+
+.left_box-title-text p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.yarim_aylana-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 45px;
+}
+
+.number_icon {
+  position: absolute;
+  left: 283px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.left_box-btn {
+  width: 120px;
+  height: 40px;
+  background: #000000;
+  border-radius: 8px;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.ailgn_center-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Arrows_icons {
+  background: #fff;
+}
+
+.align_bottom-box-title {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.align_bottom-box-list {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.align_bottom-box-item {
+  margin-right: 30px;
+  list-style: none;
+}
+
+.align_bottom-box-link {
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.active {
+  color: #000000;
+  opacity: 1 !important;
+}
+
+.align_bottom-boxs {
+  width: 620px;
+  height: 80px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.align_bottom-boxs-icon {
+  width: 64px;
+  height: 64px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8.5px;
+}
+
+.align_bottom-boxs-text {
+  margin-left: 24px;
+}
+
+.align_bottom-boxs-text h3 {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.align_bottom-boxs-text p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.align_bottom-boxs-icon2 {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+.align_bottom-boxs-icon3 {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.align_bottom-boxs span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.align_bottom-boxs-btn {
+  width: 120px;
+  height: 40px;
+  background: #000000;
+  border-radius: 8px;
+  color: #fff;
+  margin-left: 32px;
+}
+
+.bottom_boxs {
+  display: grid;
+  gap: 16px;
+}
+
+.navigation_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.navigation_box>form>input {
+  width: 300px;
+  height: 40px;
+  background: #F5F5F7;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+}
+
+.navigation_box>form {
+  position: relative;
+  margin-right: 36px;
+}
+
+.navigation_box>form>img {
+  position: absolute;
+  left: 16px;
+  top: 11px;
+}
+
+.tanlov {
+  margin-left: auto;
+  width: 12px;
+  height: 12px;
+}
+
+.message_icon {
+  margin-right: 20px;
+}
+
+.number_tex-boxs {
+  width: 450px;
+  height: 106.05px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.number_text-box {
+  width: 208px;
+  height: 96.33px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number_text-box div {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  display: inline-block;
+  margin-right: 11px;
+}
+
+.number_text-box span {
+  width: 76px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.statistics {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 16px;
+}
+
+.text_select {
+  display: flex;
+}
+
+.text_select h3 {
+  width: 112px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  margin-right: 23px;
+  opacity: 0.3;
+}
+
+.text_select select {
+  margin-left: auto;
+  width: 88px;
+  height: 32px;
+  background: #F5F5F7;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 800;
+  outline: none;
+}
+
+.graph {
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.right_box-footer {
+  width: 440px;
+  height: 193px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5F5F7;
+  border-radius: 14px;
+}
+
+.footer_title-text {
+  margin-left: 24px;
+}
+
+.footer_title-text h3 {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 2px;
+}
+
+.footer_title-text p {
+  width: 179px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.footer_btn {
+  margin-left: 0;
+}
+
+.footer_img {
+  margin-right: 48px;
+}

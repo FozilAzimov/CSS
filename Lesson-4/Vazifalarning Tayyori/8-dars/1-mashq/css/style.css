@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 100px 300px 100px;
+  gap: 10px;
+}
+
+.box {
+  background: rgb(16, 194, 0);
+  text-align: center;
+}
+
+.header {
+  grid-column: 1 / 4;
+}
+
+.footer {
+  grid-column: 2 / 4;
+}
+
+.nav {
+  grid-row: 2 / 4;
+}

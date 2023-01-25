@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #555;
+}
+
+.parent {
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  background: #fff;
+}
+
+.quloq {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  position: relative;
+}
+
+.left_quloq {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(155, 155, 155);
+}
+
+.left_quloq:hover {
+  animation: leftQuloq 1s infinite;
+}
+
+.left_quloq::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 60% 45%;
+  background: rgb(214, 214, 214);
+  position: absolute;
+  left: 30px;
+  top: 55px;
+}
+
+.right_quloq {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(155, 155, 155);
+}
+
+.right_quloq:hover {
+  animation: rightQuloq 1s infinite;
+}
+
+.right_quloq::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 45% 60%;
+  background: rgb(214, 214, 214);
+  position: absolute;
+  right: 30px;
+  top: 55px;
+}
+
+.boshi {
+  position: relative;
+  width: 340px;
+  height: 320px;
+  border-radius: 48% 48% 44% 44%;
+  background: rgb(155, 155, 155);
+  position: absolute;
+  right: 50%;
+  top: 30px;
+  transform: translateX(50%);
+  z-index: 10;
+}
+
+.left_koz {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(64, 66, 72);
+  position: absolute;
+  top: 150px;
+  left: 60px;
+  transition: .4s;
+}
+
+.left_koz:hover,
+.left_koz:hover::after {
+  background: transparent;
+  transition: .4s;
+}
+
+.left_koz:hover i {
+  color: rgb(64, 66, 72);
+  transition: 1s;
+}
+
+.left_koz::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: 2px;
+  top: 9px;
+}
+
+.left_koz>i {
+  font-size: 50px;
+  color: transparent;
+  position: absolute;
+  top: -6px;
+  transition: 1s;
+}
+
+.right_koz {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(64, 66, 72);
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  transition: .4s;
+}
+
+.right_koz:hover,
+.right_koz:hover::before {
+  background: transparent;
+  transition: .4s;
+}
+
+.right_koz:hover i {
+  color: rgb(64, 66, 72);
+  transition: 1s;
+}
+
+.right_koz::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: 2px;
+  top: 9px;
+}
+
+.right_koz>i {
+  font-size: 50px;
+  position: absolute;
+  top: -6px;
+  color: transparent;
+  transition: 1s;
+}
+
+.burun {
+  width: 70px;
+  height: 120px;
+  border-radius: 30px;
+  background: rgb(64, 66, 72);
+  position: absolute;
+  top: 150px;
+  left: 135px;
+  animation: burun2 1s both
+}
+
+.burun:hover {
+  animation: burun1 1s both;
+}
+
+.burun::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 100px;
+  left: 18px;
+  background: #222;
+  border-radius: 50%;
+}
+
+.burun::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 100px;
+  right: 18px;
+  background: #222;
+  border-radius: 50%;
+}
+
+.tana_qismi {
+  width: 342px;
+  height: 338px;
+  background: rgb(128, 128, 128);
+  border-radius: 80% 80% 100% 100%;
+  position: absolute;
+  top: 300px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.tana_qismi-2 {
+  width: 270px;
+  height: 340px;
+  background: rgb(190, 190, 190);
+  border-radius: 80% 80% 70% 70%;
+  position: absolute;
+  left: 41px;
+}
+
+.left_oyoq {
+  width: 150px;
+  height: 180px;
+  border-radius: 70px 70px 50% 50%;
+  background: rgb(144, 144, 144);
+  transform: rotate(-30deg);
+  position: absolute;
+  bottom: -15px;
+  left: -25px;
+  z-index: 5;
+}
+
+.left_oyoq:hover {
+  animation: leftOyoq 1s infinite;
+}
+
+
+.left_oyoq::after {
+  content: "";
+  width: 150px;
+  height: 165px;
+  border-radius: 70px 70px 50% 50%;
+  background: rgb(93, 93, 93);
+  position: absolute;
+  top: 15px;
+  z-index: 5;
+}
+
+.right_oyoq {
+  width: 150px;
+  height: 180px;
+  border-radius: 70px 70px 50% 50%;
+  background: rgb(144, 144, 144);
+  transform: rotate(30deg);
+  position: absolute;
+  bottom: -15px;
+  right: -25px;
+  z-index: 5;
+}
+
+.right_oyoq:hover {
+  animation: rightOyoq 1s infinite;
+}
+
+.right_oyoq::before {
+  content: "";
+  width: 150px;
+  height: 165px;
+  border-radius: 70px 70px 50% 50%;
+  background: rgb(93, 93, 93);
+  position: absolute;
+  top: 15px;
+  z-index: 5;
+}
+
+@keyframes leftQuloq {
+  0% {
+    transform: rotateX(0);
+  }
+
+  25% {
+    transform: rotateX(50deg);
+  }
+  50%{
+    transform: rotateX(50deg);
+  }
+  100%{
+    transform: rotateX(0);
+  }
+}
+
+@keyframes rightQuloq {
+  0% {
+    transform: rotateX(0);
+  }
+
+  50% {
+    transform: rotateX(50deg);
+  }
+  50% {
+    transform: rotateX(50deg);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes leftOyoq {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(-50deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+
+@keyframes rightOyoq {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes burun1 {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes burun2 {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

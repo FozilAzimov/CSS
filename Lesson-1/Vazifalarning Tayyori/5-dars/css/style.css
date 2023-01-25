@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background: #000;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgb(86, 86, 86);
+}
+.box-1{
+    width: 250px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(86, 86, 86);
+    position: relative;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box .img-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.box-1 .img-1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box .img-2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+.box .img-3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+.box .img-4{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: 75px;
+}
+.box .img-5{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 92px;
+    top: 72px;
+}
+.box_title{
+    color: rgb(205, 66, 15);
+    font-size: 22px;
+    text-align: center;
+    padding-top: 100px;
+}
+.box p{
+    color: rgb(213, 213, 213);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.box-1 span{
+    color: rgb(192, 192, 192);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.box_title-1{
+    color: #777;
+    font-size: 22px;
+    padding-top: 5px;
+}
+.box-1 p{
+    color: silver;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.icon{
+    color: silver;
+    padding-left: 5px;
+}
+.icons{
+    position: absolute;
+    right: 20px;
+}
+.img-6{
+    position: relative;
+}
+.img-7{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: -1px;
+}
+.img-8{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: -1px;
+}
+.img-9{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+.bottom_text-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.container-2{
+    margin-top: 50px;
+}
+.meva_box{
+    width: 190px;
+    height: 185px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.meva_box img{
+    width: 100px;
+}
+.meva_box h1,p{
+    font-size: 25px;
+}
+.mevalar{
+    width: 62%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.banan{
+    margin-top: 24px;
+}
+.tarvuz{
+    margin-top: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer img{
+    width: 50px;
+}
+.text_bottom{
+    margin-left: 5px;
+    padding-top: 3px;
+}
+.text_bottom p{
+    color: rgb(246, 199, 29);
+}
+.text_bottom a{
+    text-decoration: none;
+    color: rgba(20, 20, 206, 0.589);
+}
+.form_box{
+    width: 360px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 500px;
+    margin: 30px auto;
+    padding: 0 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgb(73, 73, 73);
+}
+.form_box i{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form_box input{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid #555;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#password{
+    font-size: 20px;
+    position: absolute;
+    top: 37px;
+    right: 5px;
+}
+form{
+    position: relative;
+}
+.btn{
+    width: 200px !important;
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(127, 187, 206);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none !important;
+}
+.form_box a{
+    display: block;
+    margin-top: 55px;
+    text-decoration: none;
+    color: rgb(60, 139, 163);
+}
