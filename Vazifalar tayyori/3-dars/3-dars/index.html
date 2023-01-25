@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./icons/css/font-awesome.min.css">
+    <title>3-dars</title>
+</head>
+
+<body>
+    <div style="margin-left: 10px;">
+        <h1>Sign Up</h1><br>
+        <form>
+            <input type="text" placeholder="name" required><br><br>
+            <input type="text" placeholder="surname" required><br><br>
+            <input type="email" placeholder="email" required><br><br>
+            <input type="password" placeholder="password" required><br><br>
+            <input type="date" required><br><br>
+            <select>
+                <option value="">Kursni tanlang
+                <option value="">Frontend
+                <option value="">Bekend
+                <option value="">3D Dizayn
+                <option value="">SMM
+                <option value="">Ingliz tili
+                <option value="">Rus tili
+            </select><br><br>
+            <input type="text" placeholder="Shaharlar" list="shahar" required>
+            <datalist id="shahar">
+                <option value="UZB"></option>
+                <option value="USA"></option>
+                <option value="Russia"></option>
+                <option value="Angliya"></option>
+                <option value="Eron"></option>
+            </datalist>
+            <input type="submit" placeholder="sign up">
+        </form>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+
+    <div class="container">
+        <div class="left_data">
+            <div class="left_data_1">
+                <label for="firt_name">Firs Name:</label><br><br>
+                <label for="last_name">Last Name:</label><br><br>
+                <label for="email">Email:</label><br><br><br>
+                <label for="r_email">Re-type Email:</label><br><br>
+                <label for="password">Password:</label><br><br><br>
+                <label for="r_password">Re-type Password:</label><br><br>
+                <label for="address">Address:</label><br><br>
+                <label for="city">City:</label><br><br>
+                <label for="state">State:</label><br><br>
+                <label for="code">Zip Code:</label><br><br>
+                <label for="phone">Phone:</label><br><br><br>
+                <label for="date">Date of Birth:</label><br><br><br>
+                <label for="gender">Gender:</label><br><br>
+                <label for="question">Security Question:</label><br><br>
+                <label for="answer">Security Answer:</label>
+            </div>
+            <div class="left_data_2">
+                <input type="text" id="firt_name" required><br>
+                <input type="text" id="last_name" required><br>
+                <input type="email" id="email" required><br>
+                <p>(your email address will be your username)</p>
+                <input type="email" id="r_email" required><br>
+                <input type="password" id="password" minlength="8" required><br>
+                <p>(Min. 8 characters, 1 number, case-sensitive)</p>
+                <input type="password" id="r_password" required><br>
+                <input type="text" id="address" required><br>
+                <input type="text" id="city" required><br>
+                <select id="state">
+                    <option value="">Choose a state
+                    <option value="">Anhor
+                    <option value="">Yangi Hayot
+                </select><br><br>
+                <input type="password" id="code" required
+                    style="width: 70px; margin-bottom: 5px; transform: translateY(-8px);">
+                <input type="password" id="code" placeholder="optional" required
+                    style="width: 70px;text-align: center; margin-bottom: 5px; transform: translateY(-8px);"><br>
+                <input type="text" id="phone" style="width: 145px; margin-bottom: 13px;">
+                <i  class="fa fa-question"
+                    style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i>
+                <select style="width: 120px;">
+                    <option value="">Mobile
+                    <option value="">939484001
+                    <option value="">999473726
+                </select><br>
+                <p>(No spaces or dashes)</p>
+                <select style="width: 90px;" id="date">
+                    <option value="">Day
+                    <option value="">Dushanba
+                    <option value="">Yakshanba
+                </select>
+                <select style="width: 90px;">
+                    <option value="">Month
+                    <option value="">Yanvar
+                    <option value="">Dekabr
+                </select>
+                <select style="width: 90px;">
+                    <option value="">Year
+                    <option value="">2015
+                </select>
+                <i class="fa fa-question"
+                    style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i><br><br>
+                <select id="gender" style="width: 300px; transform: translateY(10px);">
+                    <option value="">Choose a gender
+                </select>
+                <i class="fa fa-question"
+                    style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%; transform: translateY(10px);"></i><br><br>
+                <select id="question" style="width: 350px; margin-top: 5px;">
+                    <option value="">Choose a security question
+                </select>
+                <i class="fa fa-question"
+                    style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i><br><br>
+                <input type="text" id="answer" style="transform: translateY(-6px); margin-bottom: 7px;">
+                <p>(No spaces or dashes)</p>
+            </div>
+        </div>
+        <div class="right_data">
+            <h2>Personal Information</h2><br>
+            <div class="right_data_0">
+                <div class="right_data_1">
+                    <label for="firt_name">Firs Name:</label><br><br>
+                    <label for="last_name">Last Name:</label><br><br>
+                    <label for="date">Date of Birth:</label><br><br><br>
+                    <label for="gender">Gender:</label><br><br>
+                </div>
+                <div class="right_data_2">
+                    <input type="text" id="firt_name" required><br>
+                    <input type="text" id="last_name" required><br>
+                    <select style="width: 90px;" id="date">
+                        <option value="">Day
+                        <option value="">Dushanba
+                        <option value="">Yakshanba
+                    </select>
+                    <select style="width: 90px;">
+                        <option value="">Month
+                        <option value="">Yanvar
+                        <option value="">Dekabr
+                    </select>
+                    <select style="width: 90px;">
+                        <option value="">Year
+                        <option value="">2015
+                    </select>
+                    <i class="fa fa-question"
+                        style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i><br><br>
+                    <select id="gender" style="width: 280px; transform: translateY(10px);">
+                        <option value="">Choose a gender
+                    </select>
+                    <i class="fa fa-question"
+                        style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%; transform: translateY(10px);"></i><br><br>
+                </div>
+            </div><br>
+            <h2>Account Information</h2><br>
+            <div class="right_data_0">
+                <div class="right_data_1">
+                    <label for="email">Email:</label><br><br><br>
+                    <label for="r_email">Re-type Email:</label><br><br>
+                    <label for="password">Password:</label><br><br><br>
+                    <label for="r_password">Re-type Password:</label><br><br>
+                    <label for="question">Security Question:</label><br><br>
+                    <label for="answer">Security Answer:</label>
+                </div>
+                <div class="right_data_2">
+                    <input type="email" id="email" required><br>
+                    <p>(your email address will be your username)</p>
+                    <input type="email" id="r_email" required><br>
+                    <input type="password" id="password" minlength="8" required><br>
+                    <p>(Min. 8 characters, 1 number, case-sensitive)</p>
+                    <input type="password" id="r_password" required><br>
+                    <select id="question" style="width: 350px;">
+                        <option value="">Choose a security question
+                    </select>
+                    <i class="fa fa-question"
+                        style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i><br><br>
+                    <input type="text" id="answer" style="transform: translateY(-6px); margin-bottom: 7px;">
+                    <p>(No spaces or dashes)</p>
+                </div>
+            </div><br>
+            <h2>Contact Information</h2><br>
+            <div class="right_data_0">
+                <div class="right_data_1">
+                    <label for="address">Address:</label><br><br>
+                    <label for="city">City:</label><br><br>
+                    <label for="state">State:</label><br><br>
+                    <label for="code">Zip Code:</label><br><br>
+                    <label for="phone">Phone:</label><br><br><br>
+                </div>
+                <div class="right_data_2">
+                    <input type="text" id="address" required><br>
+                    <input type="text" id="city" required><br>
+                    <select id="state">
+                        <option value="">Choose a state
+                        <option value="">Anhor
+                        <option value="">Yangi Hayot
+                    </select><br><br>
+                    <input type="password" id="code" required
+                        style="width: 70px; margin-bottom: 5px; transform: translateY(-8px);">
+                    <input type="password" id="code" placeholder="optional" required
+                        style="width: 70px;text-align: center; margin-bottom: 5px; transform: translateY(-8px);"><br>
+                    <input type="text" id="phone" style="width: 145px; margin-bottom: 13px;">
+                    <i class="fa fa-question"
+                        style="margin: 0 5px; text-align: center; width: 16px; height: 16px; color: #fff; background: rgb(53, 146, 177); border-radius: 50%;"></i>
+                    <select style="width: 120px;">
+                        <option value="">Mobile
+                        <option value="">939484001
+                        <option value="">999473726
+                    </select><br>
+                    <p>(No spaces or dashes)</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <hr><br>
+    <div class="container2" style="display: blok;">
+        <h1>GeeksforGeeks Survey from</h1><br><br>
+        <form>
+            <label for="Name">Name</label><br>
+            <input type="text" id="Name" placeholder="Enter yout name" required>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" placeholder="Enter yout Email" required>
+            <label for="Age">Age</label><br>
+            <input type="number" id="Age" placeholder="Enter yout Age" required>
+            <label for="tanlamoq">Witch option best describes you?</label><br>
+            <select id="tanlamoq">
+                <option value="">Student
+            </select>
+            <label>Would you recommed GeeksforGeeks to a freind?</label><br><br>
+            <input type="radio" name="tanlamoq" style="width: 20px;"> Yes <br>
+            <input type="radio" name="tanlamoq" style="width: 20px;"> No <br>
+            <input type="radio" name="tanlamoq" style="width: 20px;"> Maybe <br><br>
+            <label>Languages and Frameworks known (Check an that applay)</label><br><br>
+            <input type="checkbox" style="width: 20px;"> C <br>
+            <input type="checkbox" style="width: 20px;"> C++ <br>
+            <input type="checkbox" style="width: 20px;"> C# <br>
+            <input type="checkbox" style="width: 20px;"> Java <br>
+            <input type="checkbox" style="width: 20px;"> Python <br>
+            <input type="checkbox" style="width: 20px;"> JavaScript <br>
+            <input type="checkbox" style="width: 20px;"> React <br>
+            <input type="checkbox" style="width: 20px;"> Angular <br>
+            <input type="checkbox" style="width: 20px;"> Django <br>
+            <input type="checkbox" style="width: 20px;"> Spring <br><br>
+            <label for="textarea">Any comments or suggestions</label><br><br>
+            <textarea name="textarea" id="textarea" cols="93" rows="4"></textarea><br><br>
+            <input type="submit" class="btn">
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
